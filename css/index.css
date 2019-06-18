@@ -265,11 +265,16 @@ img {
 }
 .home .content-section .img-content img {
   border-radius: 10px;
+  transform-origin: scale(0, 0);
 }
 @media (max-width: 500px) {
   .home .content-section .img-content img {
     width: 100%;
   }
+}
+.home .content-section .img-content .img-hover {
+  border-radius: 10px;
+  transform: scale(2, 2);
 }
 .home .inverse-content {
   padding-bottom: 30px;
